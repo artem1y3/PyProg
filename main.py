@@ -10,10 +10,10 @@ def get_data(url):
 		print(y)
 	return y
 
-def write_csv(data):
-	with open('names.csv', 'a') as file:
-	    writer = csv.writer(file)
-	    writer.writerow((data['name'], data['surname'], data['age']))
+# def write_csv(data):
+# 	with open('names.csv', 'a') as file:
+# 	    writer = csv.writer(file)
+# 	    writer.writerow((data['name'], data['surname'], data['age']))
 
 
 # def extract_archive(zip, path):

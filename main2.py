@@ -8,12 +8,20 @@ def get_json(url):
 	r = requests.get(url)
 	return r.json()
 
-def get_data(url):
-	pass
+def write_to_file(dicts):
+	with open("info.txt","a") as f:
+		f.write("===============================================\n")
+		for d,j in dicts.items():
+			f.write(d+": "+j+"\n")
+		f.write("===============================================\n")
 
+def show_to_console(dicts):
+	print("===============================================")
+	for o,j in dicts.items():
+		print(str(o)+": "+str(j))
+	print("===============================================")
 
 def main():
-	order = ['number','fz','url','dateZakupkaStart','dateZakupkaEnd','zajavkaPrice','zajavkaHavePrice','contractPrice','companyName','companyInn','companyPlace','lots']
 	atr = {
 		'number':"Номер",
 		'fz':"ФЗ",
@@ -26,22 +34,23 @@ def main():
 		'companyName':"Название компании",
 		'companyInn':"ИНН компании",
 		'companyPlace':"Местоположение компании",
-		'lots':"Лоты"
+		'lots':"Лоты",
+		'zakupkaObject':"Объект закупки"
 	}
 	url = 'http://phpnt.com/zakupki/get?regNumber='
-
+	file = 'info.txt'
+	dicts = {}
 	while True:
-		s = input("Введиде номер закупки: ")
-		print("===============================================")
+		s = input("Введите номер закупки: ")
 		if s == "exit":
 			break
 		else:
 			js = get_json(url+s)
-			for o in order:
-				print(str(atr[o])+": "+str(js[o]))
-			print("===============================================")
-
-
+			for o,j in js.items():
+				dicts[str(atr[o])] = str(j)
+			show_to_console(dicts)
+			write_to_file(dicts)
+			dicts = {}
 
 if __name__ == '__main__':
 	main()

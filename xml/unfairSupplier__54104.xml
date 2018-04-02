@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export xmlns="http://zakupki.gov.ru/oos/export/1" xmlns:oos="http://zakupki.gov.ru/oos/types/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <unfairsupplier schemeversion="5.2">
+        <oos:approvedate>
+            2015-08-12T00:00:00Z
+        </oos:approvedate>
+        <oos:state>
+            REVIEW_CANCELED
+        </oos:state>
+        <oos:publishorg>
+            <oos:regnum>
+                01511000186
+            </oos:regnum>
+            <oos:fullname>
+                УПРАВЛЕНИЕ ФЕДЕРАЛЬНОЙ АНТИМОНОПОЛЬНОЙ СЛУЖБЫ ПО НОВОСИБИРСКОЙ ОБЛАСТИ
+            </oos:fullname>
+        </oos:publishorg>
+        <oos:createreason>
+            WINNER_DEVIATION
+        </oos:createreason>
+        <oos:customer>
+            <oos:regnum>
+                01512000078
+            </oos:regnum>
+            <oos:fullname>
+                МИНИСТЕРСТВО ТРУДА, ЗАНЯТОСТИ И ТРУДОВЫХ РЕСУРСОВ НОВОСИБИРСКОЙ ОБЛАСТИ
+            </oos:fullname>
+            <oos:factaddress>
+                Российская Федерация, 630004, Новосибирская обл, Новосибирск г, Ленина, 28, -
+            </oos:factaddress>
+            <oos:inn>
+                5407462382
+            </oos:inn>
+            <oos:kpp>
+                540701001
+            </oos:kpp>
+        </oos:customer>
+        <oos:unfairsupplier>
+            <oos:fullname>
+                ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ТРЕЙД-РМ"
+            </oos:fullname>
+            <oos:type>
+                U
+            </oos:type>
+            <oos:inn>
+                5503250038
+            </oos:inn>
+            <oos:kpp>
+                550301001
+            </oos:kpp>
+            <oos:place>
+                <oos:kladr>
+                    <oos:kladrcode>
+                        550000010000530
+                    </oos:kladrcode>
+                    <oos:fullname>
+                        Краснознаменная ул
+                    </oos:fullname>
+                    <oos:subjectrf>
+                        Омская обл
+                    </oos:subjectrf>
+                    <oos:area>
+                        Омск г
+                    </oos:area>
+                    <oos:street>
+                        Краснознаменная
+                    </oos:street>
+                    <oos:building>
+                        26/4
+                    </oos:building>
+                    <oos:office>
+                        166
+                    </oos:office>
+                </oos:kladr>
+                <oos:zip>
+                    644013
+                </oos:zip>
+                <oos:place>
+                </oos:place>
+                <oos:email>
+                </oos:email>
+            </oos:place>
+        </oos:unfairsupplier>
+        <oos:purchase>
+            <oos:purchasenumber>
+                0851200000615002235
+            </oos:purchasenumber>
+            <oos:purchaseobjectinfo>
+                Поставка картриджей для принтеров и многофункциональных устройств
+            </oos:purchaseobjectinfo>
+            <oos:placingwayname>
+                Электронный аукцион
+            </oos:placingwayname>
+            <oos:protocoldate>
+                2015-06-01
+            </oos:protocoldate>
+            <oos:lotnumber>
+                1
+            </oos:lotnumber>
+            <oos:document>
+                <oos:date>
+                    2015-06-01
+                </oos:date>
+            </oos:document>
+        </oos:purchase>
+        <oos:contract>
+            <oos:productinfo>
+                Картридж для принтераКартридж для МФУ
+            </oos:productinfo>
+            <oos:currency>
+                <oos:code>
+                    RUB
+                </oos:code>
+                <oos:name>
+                    Российский рубль
+                </oos:name>
+            </oos:currency>
+            <oos:price>
+                264250
+            </oos:price>
+        </oos:contract>
+    </unfairsupplier>
+</export>
